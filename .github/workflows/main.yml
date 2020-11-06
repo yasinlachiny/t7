@@ -1,0 +1,19 @@
+
+name: Mirror repo to S3
+on:
+  push:
+    branches:
+      - master
+jobs:
+  s3Backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: S3 Backup
+        uses: ./
+        env:
+          ACCESS_KEY_ID: AKIAT52UCTQEAQRUB24D
+          MIRROR_TARGET: yasingithub
+          SECRET_ACCESS_KEY: 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
+        with:
+          args: --overwrite --remove
