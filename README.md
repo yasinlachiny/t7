@@ -92,7 +92,8 @@ Let’s see what is inside .terraspace-cache. As you can see terraspace automati
 
 ## Installation:
 First we should install ruby.
-insrall ruby
+
+# insrall ruby
 ```
 #sudo apt-get install -y libreadline-dev zlib1g-dev
 #apt-get install -y libssl-dev
