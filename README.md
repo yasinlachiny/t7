@@ -3,7 +3,7 @@
 A key factor to consider when picking any technology is maturity. Bellow table shows a comparison of the initial release dates and current version number
 
 |   |  Initial release |Current version   |
-|---|---|---|---|---|
+|---|---|---|
 |Terraform   | 2014  |  v0.14.0 |
 |Terragrunt   | 2014  | v0.26.7  |
 | Terraspace  | 2016  | v0.5.8  |
