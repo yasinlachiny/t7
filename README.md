@@ -28,6 +28,33 @@ Obviously, this is not a perfect apples-to-apples comparison.
 Terraspace has a better structure. Without any pain, Terraspace build this beautiful structure for you and the awesome thing about terraspace is how it handles layering.
 You can read about layring in this blog.
 
+```
+.
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── Terrafile
+├── app
+│   ├── modules
+│   │   └── example
+│   │       ├── main.tf
+│   │       ├── outputs.tf
+│   │       └── variables.tf
+│   └── stacks
+│       └── demo
+│           ├── main.tf
+│           ├── outputs.tf
+│           ├── tfvars
+│           │   ├── dev.tfvars
+│           │   ├── mgt.tfvars
+│           │   └── prod.tfvars
+│           └── variables.tf
+└── config
+    ├── app.rb
+    └── terraform
+        ├── backend.tf
+        └── provider.tf
+```
 
 Another cool thing about terraspace is .terraspace-cache. Terraspace works by building files in the app and config/terraform folders to a .terraspace-cache folder. Then it merely calls out to terraform within that folder.
 In fact, you can use Terraspace to build the files first, cd into the .terraspace-cache folder, and run Terraform directly. Example:
@@ -44,9 +71,26 @@ Terraspace automates it with:
 ```
 Let’s see what is inside .terraspace-cache. As you can see terraspace automatically puts the config file into .terraspace-cache . it substitutes your variable with a proper value so it helps you to debug your code better.
 
+```
+.
+├── modules
+│   └── example
+│       ├── main.tf
+│       ├── outputs.tf
+│       └── variables.tf
+└── stacks
+    └── demo
+        ├── 01-mgt.auto.tfvars
+        ├── backend.tf
+        ├── main.tf
+        ├── outputs.tf
+        ├── provider.tf
+        ├── tfvars
+        │   └── mgt.tfvars
+        └── variables.tf
+```
 
-
-Installation:
+## Installation:
 First we should install ruby.
 insrall ruby
 ```
