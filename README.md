@@ -61,6 +61,7 @@ insrall ruby
 #rbenv install 2.7.1
 ```
 It takes some time to complete the installation. You can see the process like bellow.
+```
 cd /tmp
 tail -f ruby-build.20201207235452.3413.log
 
@@ -71,14 +72,14 @@ rbenv global 2.7.1
 
 
 ruby -v
-
+```
 
 Then we should install Terraspace.
 Install Terraspace
 
 
 As you can see Terraspace needs Terraform so we should install it.
-
+```
 #sudo apt-get install wget unzip -y
 
 #sudo wget https://releases.hashicorp.com/terraform/0.12.18/terraform_0.12.18_linux_amd64.zip
@@ -88,7 +89,7 @@ As you can see Terraspace needs Terraform so we should install it.
 
 #terraform -v
 Terraform v0.12.28
-
+```
 
 
 
