@@ -4,9 +4,9 @@ A key factor to consider when picking any technology is maturity. Bellow table s
 
 |   |  Initial release |Current version   |
 |---|:---:|:---:|
-|Terraform   | 2014  |  v0.14.0 |
-|Terragrunt   | 2014  | v0.26.7  |
-| Terraspace  | 2016  | v0.5.8  |
+|Terraform   | 2014  |  [v0.14.0](https://github.com/hashicorp/terraform/releases/tag/v0.14.0) |
+|Terragrunt   | 2014  | [v0.26.7](https://github.com/gruntwork-io/terragrunt/releases/tag/v0.26.7)  |
+| Terraspace  | 2016  | [v0.5.8](https://github.com/boltops-tools/terraspace/releases/tag/v0.5.8m)  |
 
 
 this is not an apples-to-apples comparison, since different tools have different versioning schemes. Terraspace is , the youngest IAC tool in this comparison. This is Terraspace’s biggest weakness. the price you pay for using this new, cutting-edge tool is that it is not as mature as some of the other IAC options.
@@ -119,8 +119,9 @@ ruby -v
 ```
 
 Then we should install Terraspace.
-Install Terraspace
 
+
+[Install Terraspace](https://www.techiediaries.com/install-ruby-2-7-rails-6-ubuntu-20-04/)
 
 As you can see Terraspace needs Terraform so we should install it.
 ```
@@ -139,7 +140,7 @@ Terraform v0.12.28
 
 
 
-Conclusion:
+## Conclusion:
  Although Terragrunt has a better community and we can find more examples on Github but Terraspace has a better structure. We can start with Terraspace and if we have trouble because of a lack of examples or documents we can switch to Terragrunt very fast.
 
 
