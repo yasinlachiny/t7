@@ -3,28 +3,21 @@
 A key factor to consider when picking any technology is maturity. Bellow table shows a comparison of the initial release dates and current version number
 
 |   |  Initial release |Current version   |
-|---|---|---|
+|---|:---:|:---:|
 |Terraform   | 2014  |  v0.14.0 |
 |Terragrunt   | 2014  | v0.26.7  |
 | Terraspace  | 2016  | v0.5.8  |
 
-Initial release
-Current version
-Terraform
-2014
-v0.14.0
-Terragrunt
-2014
-v0.26.7
-Terraspace
-2016
-v0.5.8
 
 this is not an apples-to-apples comparison, since different tools have different versioning schemes. Terraspace is , the youngest IAC tool in this comparison. This is Terraspace’s biggest weakness. the price you pay for using this new, cutting-edge tool is that it is not as mature as some of the other IAC options.
 
-Large community vs small community:
+## Large community vs small community:
 Whenever you pick a technology, you are also picking a community. In many cases, the ecosystem around the project can have a bigger impact on your experience than the inherent quality of the technology itself. The community determines how many people contribute to the project, how many plugins, integrations, and extensions are available, how easy it is to find help online (e.g. blog posts, questions on StackOver‐ flow)
-
+|   | Contributers  | stars  |  StackOverflow |
+|---|:---:|:---:|:---:|:---:|
+| Terraform  |1528   | 24.7k  | 6927  |
+| Terragrunt  | 138  | 4.5k  | 84  |
+| Terraspace  | ?  | 82  |  0 |
 
 
 Contributers
